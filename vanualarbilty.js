@@ -2,7 +2,7 @@ const express = require('express');
 const { exec } = require('child_process'); // The dangerous function
 const app = express();
 
-\\
+fix gemini
     // VULNERABILITY: User input is directly concatenated into a shell command.
     // An attacker can use characters like ";" or "&&" to run their own commands.
     const command = `ping -c 3 ${target}`;
